@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Booking ID list",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["bookingid"],
+    "additionalProperties": false,
+    "properties": { "bookingid": { "type": "integer" } }
+  }
+}
